@@ -5,7 +5,7 @@ using AutoMapper;
 
 namespace Todo.Application.Common.Mappings
 {
-    public class AssemblyMappingProfile
+    public class AssemblyMappingProfile : Profile
     {
         public AssemblyMappingProfile(Assembly assembly) => ApplyMappingsFromAssembly(assembly);
 
